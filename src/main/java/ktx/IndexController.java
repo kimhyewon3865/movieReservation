@@ -18,7 +18,6 @@ public class IndexController {
         return "index";
     }
 
-
     @RequestMapping("/hello")
     public String hello(Model model, @RequestParam(value="name", required=false) String name) {
         model.addAttribute("greeting", "안녕하세"+name);
@@ -27,27 +26,21 @@ public class IndexController {
 
     @RequestMapping("/search")
     public String search(Model model) {
-//        model.addAttribute("greeting", "안녕하세"+name);
         return "search";
     }
 
     @RequestMapping("/schedule")
     public String schedule(Model model) {
-//        model.addAttribute("greeting", "안녕하세"+name);
         return "schedule";
     }
 
-
-
     @RequestMapping("/reservation")
     public String reservation(Model model) {
-//        model.addAttribute("greeting", "안녕하세"+name);
         return "reservation";
     }
 
     @RequestMapping("/selectMovieTheaterDateTime")
     public String selectMovieTheaterDateTime(Model model) {
-//        model.addAttribute("greeting", "안녕하세"+name);
         return "selectMovieTheaterDateTime";
     }
 
@@ -67,13 +60,11 @@ public class IndexController {
 
     @RequestMapping("/cancelReservation")
     public String cancelReservation(Model model) {
-//        model.addAttribute("greeting", "안녕하세"+name);
         return "cancelReservation";
     }
 
     @RequestMapping("/successReservation")
     public String successReservation(Model model) {
-
         return "successReservation";
     }
 

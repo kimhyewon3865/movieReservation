@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="454a2888-dd6e-473d-9040-72b2c01c26ea" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ktx/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/ktx/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cancelReservation.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cancelReservation.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/selectMovieTheaterDateTime.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/selectMovieTheaterDateTime.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/selectSeat.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/selectSeat.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,15 +69,22 @@
       <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ktx/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="317">
+              <caret line="54" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#940#941#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1057#1058#0" expanded="true" />
+                <element signature="e#1169#1170#0" expanded="true" />
+                <element signature="e#1220#1221#0" expanded="true" />
+                <element signature="e#2057#2058#0" expanded="true" />
+                <element signature="e#2099#2100#0" expanded="true" />
+                <element signature="e#2195#2196#0" expanded="true" />
+                <element signature="e#2238#2239#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1020,12 +1025,12 @@
       <option name="presentableId" value="Default" />
       <updated>1495376286505</updated>
       <workItem from="1495376290019" duration="44403000" />
-      <workItem from="1495888776902" duration="33156000" />
+      <workItem from="1495888776902" duration="33264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77559000" />
+    <option name="totallyTimeSpent" value="77667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="23" width="1419" height="832" extended-state="0" />
@@ -1479,15 +1484,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ktx/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="317">
+          <caret line="54" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#2057#2058#0" expanded="true" />
+            <element signature="e#2099#2100#0" expanded="true" />
+            <element signature="e#2195#2196#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
           </folding>
         </state>
       </provider>
