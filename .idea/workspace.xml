@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="454a2888-dd6e-473d-9040-72b2c01c26ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/selectMovieTheaterDateTime.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/selectMovieTheaterDateTime.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmavenuts-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/springmavenuts-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/cancelReservation.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/cancelReservation.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectMovieTheaterDateTime.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectMovieTheaterDateTime.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectSeat.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectSeat.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/successReservation.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/successReservation.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,11 +102,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selectMovieTheaterDateTime.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="selectMovieTheaterDateTime.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectMovieTheaterDateTime.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="354">
+              <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cancelReservation.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/cancelReservation.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,18 +125,18 @@
       <file leaf-file-name="selectSeat.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectSeat.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="90" column="22" lean-forward="true" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+            <state relative-caret-position="420">
+              <caret line="289" column="1" lean-forward="true" selection-start-line="289" selection-start-column="1" selection-end-line="289" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="successReservation.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="successReservation.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/successReservation.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -170,8 +184,8 @@
       <find>list-style-type: none;</find>
       <find>scroll-y</find>
       <find>movie-select</find>
-      <find>movie-list</find>
       <find>hover</find>
+      <find>movie-list</find>
     </findStrings>
     <replaceStrings>
       <replace>theater</replace>
@@ -216,18 +230,18 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectSeat.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cancelReservation.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/cancelReservation.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/successReservation.css" />
         <option value="$PROJECT_DIR$/src/main/java/ktx/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/successReservation.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectMovieTheaterDateTimeForManager.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/selectMovieTheaterDateTimeForManager.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/selectSeatForManager.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectSeatForManager.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectSeat.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/selectSeat.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/selectMovieTheaterDateTime.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectMovieTheaterDateTime.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/cancelReservation.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectSeat.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/successReservation.css" />
       </list>
     </option>
   </component>
@@ -322,40 +336,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmavenuts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmavenuts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -985,12 +965,12 @@
       <option name="presentableId" value="Default" />
       <updated>1495376286505</updated>
       <workItem from="1495376290019" duration="44403000" />
-      <workItem from="1495888776902" duration="32017000" />
+      <workItem from="1495888776902" duration="32701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76420000" />
+    <option name="totallyTimeSpent" value="77104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="23" width="1419" height="832" extended-state="0" />
@@ -1311,14 +1291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/cancelReservation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectMovieTheaterDateTimeForManager.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1369,14 +1341,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/successReservation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/successReservation.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1424,18 +1388,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectSeat.css">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectMovieTheaterDateTime.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="90" column="22" lean-forward="true" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+        <state relative-caret-position="354">
+          <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectMovieTheaterDateTime.css">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/cancelReservation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="441">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/selectSeat.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="289" column="1" lean-forward="true" selection-start-line="289" selection-start-column="1" selection-end-line="289" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/mytheme/css/successReservation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
