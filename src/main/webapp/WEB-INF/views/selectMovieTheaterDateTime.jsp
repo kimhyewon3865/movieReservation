@@ -6,7 +6,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
 <html>
 <head>
     <title>Title</title>
@@ -38,19 +37,12 @@
 <div class="select-movie-theater-date-time-Section">
 
     <div class="section section-movie">
-        <!-- col-head -->
         <div class="col-head" id="skip_movie_list">
             <h3 class="sreader">영화</h3>
-            <%--<a href="#" class="skip_to_something" onclick="skipToSomething('skip_theater_list');return false;">영화선택 건너뛰기</a>--%>
         </div>
-        <!-- col-body -->
         <div class="col-body">
-            <!-- 영화선택 -->
             <div class="movie-select">
                 <div class="tabmenu">
-                    <span class="side on"></span>
-                    <%--<a href="#" class="button menu1 selected">전체</a>--%>
-                    <span class="side on"></span>
                     <%--<div class="movie-list nano has-scrollbar-y" id="movie_list" style="height: 300px;">--%>
                         <%--<ul class="content scroll-y" onscroll="movieSectionScrollEvent();" tabindex="-1">--%>
                             <%--<li class="rating-12" data-index="0" movie_cd_group="20012926" movie_idx="79598" onclick="setSelectedMovie(0)">--%>
@@ -79,13 +71,11 @@
         </div>
     </div>
 
-    <%--극장--%>
     <div class="section section-theater">
         <div class="col-head" id="skip_theater_list">
             <h3 class="sreader">극장</h3>
         </div>
         <div class="col-body">
-            <!-- 극장선택 -->
             <div class="theater-select">
                 <div class="theater-list" style="height: 300px;">
                     <div class="theater-area-list" id="theater_area_list">
@@ -95,7 +85,6 @@
                                     <span class="name">서울</span>
                                     <span class="count">(18)</span>
                                 </a>
-
                                 <div class="area_theater_list nano has-scrollbar-y" style="height: 388px;">
                                     <%--<ul class="content scroll-y" tabindex="-1">--%>
                                         <%--<li class="" data-index="1" areaindex="0" theater_cd="0060" rating_cd="undefined" style="display: list-item;">--%>
@@ -163,9 +152,7 @@
             <h3 class="sreader">날짜</h3>
         </div>
         <div class="col-body">
-            <!-- 날짜선택 -->
             <div class="date-list nano has-scrollbar-y" id="date_list" style="height: 522px;">
-                <%--<ul class="content scroll-y" tabindex="-1">--%>
                     <ul>
 
                     <%--<div>--%>
@@ -213,21 +200,17 @@
                                 </label>
                             </li>
 
-                    <%--</div>--%>
                 </ul>
 
                 <div class="pane pane-y" style="display: block; opacity: 1; visibility: visible;"><div class="slider slider-y" style="height: 50px; top: 0px;"></div></div><div class="pane pane-x" style="display: none; opacity: 1; visibility: visible;"><div class="slider slider-x" style="width: 50px;"></div></div></div>
         </div>
     </div>
 
-    <%--시간--%>
-
     <div class="section section-time">
         <div class="col-head" id="skip_time_list">
             <h3 class="sreader">시간</h3>
         </div>
         <div class="col-body">
-            <!-- 시간선택 -->
             <div class="time-list nano has-scrollbar-y">
                 <%--<div class="content scroll-y" tabindex="-1">--%>
                     <%--<div class="theater" screen_cd="001" movie_cd="20012926">--%>

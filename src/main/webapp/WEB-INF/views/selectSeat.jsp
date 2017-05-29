@@ -37,8 +37,6 @@
     </ul>
 </div>
 <br/>
-<%--<div class="section section-seat four_line dimmed">--%>
-<%--<div class="col-body">--%>
 <div class="person_screen" style="height: 20%;">
     <div class="numberofpeople-select">
         <ul>
@@ -104,10 +102,7 @@
         </ul>
         <p>총가격 :</p>
     </div>
-    <%--</div>--%>
-    <%--</div>--%>
 
-    <!-- NUMBEROFPEOPLE 섹션 -->
     <div class="section section-screen-select">
         <div id="user-select-info">
             <p class="theater-info">
@@ -117,7 +112,6 @@
             </p>
             <p class="playYMD-info"><b>${date}</b><b class="exe">(금)</b><b>${time}</b></p>
         </div>
-        <%--<a class="change_time_btn" href="#" onmousedown="if(event.stopPropagation){event.stopPropagation();}return false;" onclick="ticketStep2TimeSelectPopupShow();return false;"><span>상영시간 변경하기</span></a>--%>
     </div>
 </div>
 
@@ -427,7 +421,5 @@
         window.location = "http://localhost:8080/successReservation";
     }
 </script>
-<%--<a href="/movieReservation" style="float: left">변경</a>--%>
-<%--<a href="" style="float: right;">결제</a>--%>
 </body>
 </html>
