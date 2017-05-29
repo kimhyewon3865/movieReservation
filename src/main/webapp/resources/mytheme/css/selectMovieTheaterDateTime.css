@@ -1,0 +1,135 @@
+body, input, select, textarea, header, footer {
+    color: #333;
+    font-family: '돋움',dotum,Nanum Gothic,sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.nav {
+    background-color: hotpink;
+    width: 100%;
+    /*height: 10%;*/
+    height: 50px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+.nav li {
+    float: right;
+    height: 100%;
+}
+
+.nav li a, .dropbtn {
+    display: inline-block;
+    color: #555459;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover, .dropdown:hover .dropbtn {
+    background: rgba(102, 152, 200, 0.5);
+}
+
+.nav .homeLeftFloat {
+    float: left;
+}
+
+
+
+.section .col-head h3 {
+    background-color: yellowgreen;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.select-movie-theater-date-time-Section {
+    height: 580px;
+}
+
+.section .col-body {
+    background-color: lightgoldenrodyellow;
+    margin: 10px;
+    line-height: 1.8;
+    height: 500px;
+    overflow:scroll;
+}
+
+.section-movie {
+    height: 300px;
+    float: left;
+    width: 30%;
+    /*background-color: #5C6AFF;*/
+}
+
+.section-theater {
+    height: 300px;
+    float: left;
+    width: 20%;
+}
+
+.section-date {
+    height: 300px;
+    float: left;
+    width: 20%;
+}
+
+.section-date .col-body {
+    overflow:scroll;
+}
+
+.section-time {
+    height: 300px;
+    float: left;
+    width: 30%;
+}
+
+.section-time .col-body {
+    overflow:scroll;
+}
+
+.section .col-body .movie-list  {
+
+}
+
+.section .col-body .movie-list li  {
+    margin: 5px;
+    list-style-type: none;
+}
+
+.section .col-body .movie-list li:hover  {
+    background-color: lightblue;
+}
+
+.section .col-body .theater-area-list li  {
+    margin: 5px;
+    list-style-type: none;
+}
+
+.section .col-body .theater-area-list li:hover  {
+    background-color: lightblue;
+}
+
+.section .col-body .area_theater_list li  {
+    margin: 5px;
+    list-style-type: none;
+}
+
+.section .col-body .movie-list li:hover  {
+    background-color: lightblue;
+}
+
+.searchSeatBtn {
+    width: 200px;
+    height: 50px;
+    background-color: darkorange;
+    float: right;
+    margin-right: 10px;
+}
