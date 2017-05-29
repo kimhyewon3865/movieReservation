@@ -41,8 +41,6 @@ body, input, select, textarea, header, footer {
     float: left;
 }
 
-
-
 .section .col-head h3 {
     background-color: yellowgreen;
     margin: 10px;
@@ -104,27 +102,19 @@ body, input, select, textarea, header, footer {
     list-style-type: none;
 }
 
-.section .col-body .movie-list li:hover  {
-    background-color: lightblue;
-}
+
 
 .section .col-body .theater-area-list li  {
     margin: 5px;
     list-style-type: none;
 }
 
-.section .col-body .theater-area-list li:hover  {
-    background-color: lightblue;
-}
 
 .section .col-body .area_theater_list li  {
     margin: 5px;
     list-style-type: none;
 }
 
-.section .col-body .movie-list li:hover  {
-    background-color: lightblue;
-}
 
 .searchSeatBtn {
     width: 200px;
@@ -132,4 +122,68 @@ body, input, select, textarea, header, footer {
     background-color: darkorange;
     float: right;
     margin-right: 10px;
+}
+
+
+/**/
+
+
+.movie-list input {
+    visibility:hidden;
+}
+
+.movie-list label {
+    cursor: pointer;
+}
+
+.movie-list input:checked + label {
+    background: red;
+}
+
+
+
+.area_theater_list input {
+    visibility:hidden;
+}
+
+.area_theater_list label {
+    cursor: pointer;
+}
+
+.area_theater_list input:checked + label {
+    background: red;
+}
+
+
+
+.section-date .col-body .date-list li {
+    list-style-type: none;
+}
+
+.section-date .col-body .date-list input {
+    visibility:hidden;
+}
+
+.section-date .col-body .date-list label {
+    cursor: pointer;
+}
+
+.section-date .col-body .date-list input:checked + label {
+    background: red;
+}
+
+.time-list li {
+    list-style-type: none;
+}
+
+.time-list input {
+    visibility:hidden;
+}
+
+.time-list label {
+    cursor: pointer;
+}
+
+.time-list input:checked + label {
+    background: red;
 }
